@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miles_to_go</title>
+    <style>
+        body {
+            overflow: none;
+            
+            background-image: url('https://images.unsplash.com/photo-1566842167782-c826ecb75a42?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=1600');
+            background-repeat: no-repeat;
+        }
+
+        .left {
+            width: 10%;
+            display: block;
+            position: relative;
+            left: 10px;
+            top: auto;
+        }
+
+        .navbar li a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        .mid {
+            display: block;
+            width: 32%;
+
+            margin: -180px auto;
+            font-size: 22px;
+            padding: 5px;
+
+        }
+
+
+
+        .mid ul {
+            list-style: none;
+
+        }
+
+        .right {
+            display: block;
+            position: absolute;
+            right: 34px;
+            top: 10px;
+            text-decoration: none;
+
+        }
+
+        .navbar {
+            float: inline-block;
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            padding: 12px 12px;
+
+        }
+
+        .left p {
+            font-size: 20px;
+            text-align: center;
+            position: relative;
+            top: -20px;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+        }
+
+        .btn {
+            color: white;
+            font-size: 20px;
+        }
+
+        .right span a {
+            position: relative;
+            top: 40px;
+            text-decoration: none;
+            font-size: 25px;
+        }
+        .form{
+            border:2px solid white;
+            display: block;
+            margin: 20px 0px 0px 20%;
+            padding-top: 30px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 50px;
+            text-align:center;
+            display:inline-block;
+        }
+        .last input{
+            text-align:center;  
+            width: 80%;
+            font-size: 25px;
+            margin: 1px auto;
+        }
+        .form h3{
+            font-size: 50px;
+        }
+        .bs button{
+            line-height: -20px;
+            font-size: 20px;
+            width: 80px;
+            border-radius: 12px;
+            float: left;
+            display: inline;
+        }
+        
+    </style>
+</head>
+
+<body>
+   <header>
+        <nav>
+            <div class="left">
+                <a href="#">
+                    <img src="https://images.unsplash.com/uploads/141310026617203b5980d/c86b8baa?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=150&h=120&fit=crop&ixid=eyJhcHBfaWQiOjF9"></a>
+                <p>Beauty</p>
+            </div>
+
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Places</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="right">
+                <span><a href="#">Call Us</a></span>&nbsp;&nbsp;&nbsp;&nbsp;<span><a href="#">Email Us</a></span>
+            </div>
+            
+
+            </div>
+        </nav>
+    </header>
+    <br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="form">
+  <h3>Register With Our Page</h3>
+   <div class="last"><input type="text" value="" placeholder="Enter Your Name"></input></div>
+   <div class="last"><input type="text" value="" placeholder="Enter Your Age"></input></div>
+   <div class="last"><input type="text" value="" placeholder="Enter Your Gender"></input></div>
+  <div class="last"><input type="text" value="" placeholder="Enter Your Locality"></input></div>
+<div class="bs"><button>Submit</button></div>
+</div>
+
+</body>
+</html>
